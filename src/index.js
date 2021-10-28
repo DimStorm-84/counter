@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+// HEAD
 import App from "./app";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
@@ -10,6 +11,16 @@ ReactDOM.render(
   //<React.StrictMode>
   <App />,
   //</React.StrictMode>,
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import "bootstrap/dist/css/bootstrap.css";
+import Counter from "./components/counter";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Counter />
+  </React.StrictMode>,
+>>>>>>> ca2987e8900dd5a4519f2c72ab2c974f9bc7edad
   document.getElementById("root")
 );
 
